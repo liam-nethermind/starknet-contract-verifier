@@ -1,9 +1,10 @@
 mod api;
+mod license;
 mod resolver;
 mod utils;
 mod verify;
 
-use crate::api::LicenseType;
+use crate::license::LicenseType;
 use crate::utils::detect_local_tools;
 use crate::verify::VerifyProjectArgs;
 use camino::Utf8PathBuf;
